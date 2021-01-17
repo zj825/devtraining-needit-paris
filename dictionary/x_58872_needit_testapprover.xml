@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TestApprover" max_length="40" name="x_58872_needit_testapprover" sizeclass="0" type="collection">
+        <element label="approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="category" max_length="40" name="category" type="string"/>
+        <element display="true" label="order" max_length="40" name="order" type="integer"/>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+    </element>
+</database>
